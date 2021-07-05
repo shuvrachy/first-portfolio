@@ -5,19 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
-.orange-color{
+h1 span{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 4%;
 }
 .half-width img{
-    width: 60%;
-    border-radius: 50%;
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -30,4 +31,10 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
